@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-27T16:29:23 IST" name="Master Suite" finished-at="2025-01-27T16:29:34 IST" duration-ms="10416">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001.entrytest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" name="entrytest" class="Test_Cases.TC_001"/>
+      </group> <!-- Master -->
+      <group name="Regression">
+        <method signature="TC_001.entrytest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" name="entrytest" class="Test_Cases.TC_001"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2025-01-27T16:29:23 IST" name="Test" finished-at="2025-01-27T16:29:34 IST" duration-ms="10416">
+      <class name="Test_Cases.TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" started-at="2025-01-27T16:29:24 IST" name="setup" finished-at="2025-01-27T16:29:28 IST" duration-ms="4354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="entrytest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" started-at="2025-01-27T16:29:33 IST" name="entrytest" data-provider="Logindata" finished-at="2025-01-27T16:29:33 IST" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Doctorlist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nurselist]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Specialist]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Workername]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Others]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entrytest -->
+        <test-method signature="entrytest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" started-at="2025-01-27T16:29:34 IST" name="entrytest" data-provider="Logindata" finished-at="2025-01-27T16:29:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhijit Dashrath Kudale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amar Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Amol Bhor]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[B d sharma]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Chandrakant verma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entrytest -->
+        <test-method signature="entrytest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Test_Cases.TC_001@7b02881e]" started-at="2025-01-27T16:29:34 IST" name="entrytest" data-provider="Logindata" finished-at="2025-01-27T16:29:34 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anumodan Gupta]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ASHISH UPADHYAY]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ATAUR RAHMAN]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[CHETAN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- entrytest -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Test_Cases.TC_001@7b02881e]" started-at="2025-01-27T16:29:34 IST" name="Teardown" finished-at="2025-01-27T16:29:34 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Test_Cases.TC_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Master Suite -->
+</testng-results>
