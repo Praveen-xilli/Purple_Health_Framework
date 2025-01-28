@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import Test_Base.Base_class;
 import Utilities.Dataproviders;
-import Utilities.Xl_Utility;
 
 public class TC_001 extends Base_class {
 	@Test(dataProvider = "Logindata",dataProviderClass = Dataproviders.class,groups = {"Master","Regression"})
