@@ -14,5 +14,6 @@ public class TC_001 extends Base_class {
 		System.out.println("This is First test case and the message is "+msg3);
 		System.out.println("This is First test case and the message is "+msg4);
 		System.out.println("This is First test case and the message is "+msg5);
+		System.out.println("This is last line");
 	}
 }
